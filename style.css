@@ -8,5 +8,50 @@
 }
 
 .cabecalho{
+    max-width: 1440px;
+    height: 150px;
+    margin: 0 auto;
     background-color: #3000BA;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu a{
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.section-principal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(220, 6, 44, 0.7);;
+    height: 689px;
+    color: #ffff;
+}
+.section-principal h1{
+    padding: 60px 0px;
+    margin-right: 796px;
+    font-size: 50px;
+}
+.section-principal h2{
+    position: absolute;
+    top: 400px;
+    left: 472px;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+footer{
+    max-width: 1440px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color:#3000BA;
 }
