@@ -51,20 +51,25 @@ body{
     align-items: center;
 }
 
-
-
-
-
-
-
 .rodape{
     display: flex;
     justify-content: center;
     align-items: center;
     background:#5933c8;
     padding: 20px 0px;
+    min-height: 100vh;
 }
-
+.logo{
+    flex: 1;
+}
 .rodape .logo{
     margin: 0 auto;
+}
+
+/* celulares maiores */
+
+@media (max-width: 928px){
+    .rodape{
+        padding: 100px;
+    }
 }
