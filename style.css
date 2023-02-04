@@ -8,7 +8,6 @@
 }
 body{
     height: 100vh;
-    background:#3000bac2;
 }
 .cabecalho{
     display: flex;
@@ -30,8 +29,8 @@ body{
 }
 
 .section-principal{
-    padding: 30px 0px;
-    background: rgba(220, 6, 44, 0.7);
+    padding: 75px 0px;
+    background: #e6506b;
     color: white;
     font-size: 14px;
 }
@@ -39,7 +38,7 @@ body{
 .section-principal h1{
     font-size: 2.2em;
     text-align: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 }
 
 .section-principal h2{
@@ -50,6 +49,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .rodape{
@@ -57,9 +57,9 @@ body{
     justify-content: center;
     align-items: center;
     background:#5933c8;
-    padding: 50px;
 }
 .logo{
+    padding: 11px 0px;
 }
 .rodape .logo{
     margin: 0 auto;
