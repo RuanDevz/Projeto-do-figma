@@ -67,8 +67,23 @@ body{
 
 /* celulares maiores */
 
-@media (max-height: 928px){
-    .rodape{
-        padding: 50px;
+@media screen and (max-width: 1280px){
+    .menu{
+        display: flex;
+        gap: 90px;
+        margin: 0 auto;
     }
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .section-principal{
+        padding: 43px;
+    }
+
+
 }
