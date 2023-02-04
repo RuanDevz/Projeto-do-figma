@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    height: 100vh;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
