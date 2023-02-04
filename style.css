@@ -8,6 +8,7 @@
 }
 body{
     height: 100vh;
+    background:#3000bac2;
 }
 .cabecalho{
     display: flex;
@@ -57,7 +58,6 @@ body{
     align-items: center;
     background:#5933c8;
     padding: 20px 0px;
-    min-height: 100vh;
 }
 .logo{
     flex: 1;
@@ -68,8 +68,8 @@ body{
 
 /* celulares maiores */
 
-@media (max-width: 928px){
+@media (min-width: 928px){
     .rodape{
-        padding: 100px;
+        padding: 50px;
     }
 }
