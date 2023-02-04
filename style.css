@@ -9,9 +9,9 @@
 
 .cabecalho{
     max-width: 1440px;
-    height: 150px;
+    height: 103px;
     margin: 0 auto;
-    background-color: #3000BA;
+    background-color: #3000bacc;
 }
 .menu{
     display: flex;
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 .menu a{
-    margin-top: 100px;
+    margin-top: 58px;
     color: white;
     text-decoration: none;
     font-size: 25px;
@@ -49,9 +49,20 @@
     line-height: 60px;
 }
 
+.imagem-do-astronauta{
+    position: absolute;
+    top: 380px;
+    left: 1300px;
+}
+
 footer{
     max-width: 1440px;
-    padding: 50px;
+    padding: 10px;
     margin: 0 auto;
-    background-color:#3000BA;
+    background-color:#3000bacc;
+}
+
+footer .logo{
+    display: block;
+    margin: 0 auto;
 }
