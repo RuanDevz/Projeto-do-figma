@@ -67,7 +67,25 @@ body{
 
 /* Tablets */
 @media screen and (min-width: 884px){
+    .material-symbols-outlined{
+        display: none;
+    }
 
+    .menu{
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+    .section-principal{
+        padding: 115px 0px;
+    }
+
+    .menu a:hover{
+        color: rgb(226, 226, 226);
 }
 
 /* Nootbooks */
@@ -86,6 +104,13 @@ body{
     .menu a{
         text-decoration: none;
         color: white;
+    }
+
+    input{
+        outline: 0px;
+        margin: 3px;
+        background: #3000bac2;
+        color:white;
     }
 
     .menu a:hover{
