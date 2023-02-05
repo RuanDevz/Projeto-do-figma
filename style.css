@@ -81,7 +81,12 @@ body{
         color: white;
     }
     .section-principal{
-        padding: 115px 0px;
+        padding: 112px 0px;
+    }
+
+    .section-principal h1{
+        font-size: 3.7em;
+        margin-top: -80px;
     }
 
     .menu a:hover{
