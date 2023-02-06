@@ -66,15 +66,27 @@ body{
 }
 
 /* Tablets */
-@media screen and (min-width: 884px){
+@media screen and (min-width: 768px){
     .material-symbols-outlined{
         display: none;
+    }
+
+    span#menu{
+        display: block;
+    }
+
+    a#ong{
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: space-around;
     }
 
     .menu{
         display: flex;
         gap: 100px;
-        justify-content: space-around;
     }
     .menu a{
         text-decoration: none;
@@ -84,7 +96,7 @@ body{
         color: rgb(226, 226, 226);
     }
     .section-principal{
-        padding: 40px 0px;
+        padding: 93px 0px;
     }
 
     .section-principal h1{
@@ -117,6 +129,14 @@ body{
     }
     .material-symbols-outlined{
         display: none;
+    }
+
+    span#menu{
+        display: none;
+    }
+
+    a#ong{
+        display: block;
     }
 
     .menu a{
