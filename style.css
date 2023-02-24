@@ -12,13 +12,43 @@ body{
 }
 .cabecalho{
     display: flex;
-    justify-content: space-between;
     background: #3000bac2;
     padding: 30px;
 }
+span#menu{
+    cursor: pointer;
+    display: block;
+    font-size: 2.2em;
+}
 
 .menu{
-    display: none;
+    display: block;
+    flex-direction: column;
+}
+
+nav#menunav{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1px;
+    position: relative;
+    top: 28px;
+    left: -65px;
+    background:#29029ec2;
+    padding: 10px 4px;
+    border-radius: 10px;
+}
+
+.menu a:hover{
+    color: #e2e2e2;
+    background:#25028fc2 ;
+}
+
+input#procurar{
+    border: none;
 }
 
 .material-symbols-outlined{
@@ -94,7 +124,7 @@ body{
         color: white;
     }
     .menu a:hover{
-        color: rgb(226, 226, 226);
+        color: #e2e2e2;
     }
     .section-principal{
         padding: 93px 0px;
