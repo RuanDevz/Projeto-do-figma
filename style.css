@@ -10,40 +10,41 @@ body{
     height: 100vh;
     background: #3000bac2;
 }
-.cabecalho {
+.cabecalho{
     display: flex;
-    align-items: center;
     background: #3000bac2;
     padding: 30px;
-  }
-  
+}
 span#menu{
     cursor: pointer;
     display: block;
-    margin: 0 auto;
     font-size: 2.2em;
 }
 
 .menu{
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 
 nav#menunav{
     display: flex;
 }
-.menu a {
-    color: white;
+
+.menu a{
     text-decoration: none;
-    font-size: 1.3em;
-    padding: 6px 0px;
-    display: block;
-    margin: 0 auto;
-  }
-  
+    color: white;
+    margin-top: 1px;
+    position: relative;
+    top: 28px;
+    left: -65px;
+    background:#29029ec2;
+    padding: 10px 4px;
+    border-radius: 10px;
+}
 
 .menu a:hover{
-
+    color: #e2e2e2;
+    background:#25028fc2 ;
 }
 
 input#procurar{
@@ -102,30 +103,28 @@ input#procurar{
     }
 
     span#menu{
+        display: block;
+    }
+
+    a#ong{
         display: none;
     }
 
     .cabecalho{
         display: flex;
-        flex-direction: row;
+        justify-content: space-around;
     }
 
     .menu{
         display: flex;
-        flex-direction: row;
-        gap: 20px;
-        text-align: center;
+        gap: 100px;
     }
     .menu a{
-        text-align: ;
         text-decoration: none;
         color: white;
-        background: none;
-        font-size: 1.3em;
     }
     .menu a:hover{
         color: #e2e2e2;
-        background: none;
     }
     .section-principal{
         padding: 93px 0px;
